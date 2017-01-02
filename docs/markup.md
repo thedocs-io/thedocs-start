@@ -1,12 +1,14 @@
 <!--tags: reference, markdown-it -->
 
 # Markup intro
-This document will help you to write your first document. Use it as reference of markdown language.
-To render we use [markdown-it](https://github.com/markdown-it/markdown-it) with minor improvements:
+To render markdown we use [markdown-it](https://github.com/markdown-it/markdown-it) with minor improvements:
 did you noticed `<!--tags:` at the beginning of the document?
 This technique allows you to add tags to document which is very useful to find docs easier.
 
----
+> Please note: you can use this document as reference. Just checkout it and check sources
+> ```
+> git clone //todo
+> ```
 
 # h1 Heading 8-)
 ## h2 Heading

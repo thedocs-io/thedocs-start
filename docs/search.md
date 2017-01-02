@@ -21,11 +21,11 @@ Searching is simple - just type text from path / tags / content, hit `enter` and
 Searching allows you to find this document by typing `how to search` | `shortcusts`
 
 ## Filtering
-Filtering is very fast by works only on document path and tags.
+Filtering is very fast but works only on document path and tags.
 It has some specific rules, which allow you filter documents much faster:
 
-* We split your request into words (upper case, `-`, `.`). E.g. `helloWorld.md` will be splited into `hello`, `world` and `md`
-* We do the same with document title / tags
+* We split your request into words (by upper case, `-`, `.`). E.g. `helloWorld.md` will be splited into `hello`, `world` and `md`
+* We do the same thing with document title / tags
 * After that we try to find documents which has all words from your request in title / tags. To compare words we use `startsWith` rule
 
 This technic allows you to type only parts of the words and get response.
@@ -39,7 +39,7 @@ Here is a summary of different ways to find document. Use them and you will find
 | Type | How to |
 | --- | --- |
 | open by full path name  | type `search.md` > `enter`  |
-| filter by path | type `search` (or `se` \| `se.md` \| 'seMd') > 'arrow down' > `enter` |
+| filter by path | type `search` (or `se` \| `se.md` \| `seMd`) > `arrow down` (to select from results) > `enter` |
 | filter by tags | type `help` (or `start` \| `he sta`) > `arrow down` > `enter` |
-| filter by combination | type `start search` (or `start help` \| `st he`) > `arrow down` > `enter` |
-| fulltext search by content | type `action` > `enter` > `arrow down` (to select from results) > `enter` |
+| filter by combination | type `start search` (or `search help` \| `se he`) > `arrow down` > `enter` |
+| fulltext search by content | type `action` > `enter` > `arrow down` > `enter` |
