@@ -7,7 +7,7 @@ This technique allows you to add tags to document which is very useful to find d
 
 > Please note: you can use this document as reference. Just checkout it and check sources
 > ```
-> git clone //todo
+> git clone git://github.com/thedocs-io/thedocs-start.git
 > ```
 
 > Please note: you can use [preview.thedocs.io](http://preview.thedocs.io) to preview documents before committing them

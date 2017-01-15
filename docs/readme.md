@@ -2,7 +2,7 @@ Hi! Thank you for using theDocs.io. We create special project to get you familia
 
 > Please note: you can use this project as reference. Just checkout it and check sources
 > ```
-> git clone //todo
+> git clone git://github.com/thedocs-io/thedocs-start.git
 > ```
 
 ## readme.md
