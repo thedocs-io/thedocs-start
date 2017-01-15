@@ -10,6 +10,8 @@ This technique allows you to add tags to document which is very useful to find d
 > git clone //todo
 > ```
 
+> Please note: you can use [preview.thedocs.io](http://preview.thedocs.io) to preview documents before committing them
+
 # h1 Heading 8-)
 ## h2 Heading
 ### h3 Heading
