@@ -1,16 +1,15 @@
 <!--tags: reference, markdown-it -->
 
 # Markup intro
-To render markdown we use [markdown-it](https://github.com/markdown-it/markdown-it) with minor improvements:
-did you noticed `<!--tags:` at the beginning of the document?
-This technique allows you to add tags to document which is very useful to find docs easier.
+To render markdown we use [markdown-it](https://github.com/markdown-it/markdown-it) which includes minor improvements such as `<!--tags:` 
+This technique allows you to add tags to documents, which is very useful since it helps you find them much more easier.
 
-> Please note: you can use this document as reference. Just checkout it and check sources
+> Please note: you can use this document as reference, just take a look at it and check the sources
 > ```
 > git clone git://github.com/thedocs-io/thedocs-start.git
 > ```
 
-> Please note: you can use [preview.thedocs.io](http://preview.thedocs.io) to preview documents before committing them
+> Please note: you can use [preview.thedocs.io](http://preview.thedocs.io) to preview documents before <donwloading/commiting to> them
 
 # h1 Heading 8-)
 ## h2 Heading
@@ -55,7 +54,7 @@ Unordered
 
 + Create a list by starting a line with `+`, `-`, or `*`
 + Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
+  - Marker character change forces the start of a new list:
     * Ac tristique libero volutpat at
     + Facilisis in pretium nisl aliquet
     - Nulla volutpat aliquam velit
@@ -109,15 +108,15 @@ console.log(foo(5));
 
 | Option | Description |
 | ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
+| data   | path for data files to supply the data that will be transfered into templates. |
+| engine | to be used for processing templates. Handlebars is the default. |
 | ext    | extension to be used for dest files. |
 
 Right aligned columns
 
 | Option | Description |
 | ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
+| data   | path for data files to supply the data that will be tranfered into templates. |
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext    | extension to be used for dest files. |
 
@@ -140,7 +139,7 @@ Like links, Images also have a footnote style syntax
 
 ![Alt text][id]
 
-With a reference later in the document defining the URL location:
+With a reference letter in the document defining the URL location:
 
 [id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
 
